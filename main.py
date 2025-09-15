@@ -16,7 +16,8 @@ popular_item_price = 150.00  # float (menu item price)
 has_delivery = True  # boolean
 
 # 5. List data type
-product_names = ["Matcha Latte", "Black Coffee", "Carrot Bread"]  # list
+product_names = ["Matcha Latte", "Black Coffee", "Carrot Bread", "Matcha Macadamia",
+    "Sparkling Water"]  # list
 
 # 6. Tuple data type
 business_hours = ("11:00 AM", "10:00 PM")  # tuple
@@ -54,7 +55,7 @@ display(f"₱{menu_prices['Carrot Bread']:.2f}", target="price3")
 display(product_names[3], target="prod4")
 display(f"₱{menu_prices['Matcha Macadamia']:.2f}", target="price4")
 
-display("Sparkling Water", target="prod5")
+display(product_names[4], target="prod5")
 display(f"₱{menu_prices['Sparkling Water']:.2f}", target="price5")
 
 # Display opening hours
@@ -71,7 +72,3 @@ display(f"Common Allergens: {', '.join(common_allergens)}", target="allergens")
 
 # Display popular item price
 display(f"Popular Item Price: ₱{popular_item_price:.2f}", target="popularItem")
-
-
-
-
