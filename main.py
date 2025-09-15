@@ -26,7 +26,7 @@ menu_prices = {  # dictionary
     "Matcha Latte": 150.00,
     "Black Coffee": 125.00,
     "Carrot Bread": 100.00,
-    "Matcha Macadamia": 30.00,
+    "Matcha Macadamia": 130.00,
     "Sparkling Water": 20.00
 }
 
@@ -71,5 +71,6 @@ display(f"Common Allergens: {', '.join(common_allergens)}", target="allergens")
 
 # Display popular item price
 display(f"Popular Item Price: ₱{popular_item_price:.2f}", target="popularItem")
+
 
 
