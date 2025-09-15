@@ -27,7 +27,7 @@ menu_prices = {  # dictionary
     "Black Coffee": 125.00,
     "Carrot Bread": 100.00,
     "Matcha Macadamia": 130.00,
-    "Sparkling Water": 20.00
+    "Sparkling Water": 20.00,
 }
 
 # 8. Set data type
@@ -51,7 +51,7 @@ display(f"₱{menu_prices['Black Coffee']:.2f}", target="price2")
 display(product_names[2], target="prod3")
 display(f"₱{menu_prices['Carrot Bread']:.2f}", target="price3")
 
-display("Matcha Macadamia", target="prod4")
+display(product_names[3], target="prod4")
 display(f"₱{menu_prices['Matcha Macadamia']:.2f}", target="price4")
 
 display("Sparkling Water", target="prod5")
@@ -71,6 +71,7 @@ display(f"Common Allergens: {', '.join(common_allergens)}", target="allergens")
 
 # Display popular item price
 display(f"Popular Item Price: ₱{popular_item_price:.2f}", target="popularItem")
+
 
 
 
