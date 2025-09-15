@@ -16,7 +16,7 @@ popular_item_price = 150.00  # float (menu item price)
 has_delivery = True  # boolean
 
 # 5. List data type
-product_names = ["Matcha Latte", "Garlic Bread", "Caesar Salad"]  # list
+product_names = ["Matcha Latte", "Black Coffee", "Carrot Bread"]  # list
 
 # 6. Tuple data type
 business_hours = ("11:00 AM", "10:00 PM")  # tuple
@@ -24,14 +24,14 @@ business_hours = ("11:00 AM", "10:00 PM")  # tuple
 # 7. Dictionary data type
 menu_prices = {  # dictionary
     "Matcha Latte": 150.00,
-    "Black coffee": 125.00,
-    "Garlic Bread": 50.00,
-    "Iced Tea": 30.00,
+    "Black Coffee": 125.00,
+    "Carrot Bread": 100.00,
+    "Matcha Macadamia": 30.00,
     "Sparkling Water": 20.00
 }
 
 # 8. Set data type
-common_allergens = {"gluten", "dairy", "nuts"}  # set
+common_allergens = {"gluten", "dairy", "eggs","nuts","carrots"}  # set
 
 # ------------------- DISPLAY -------------------
 
@@ -44,12 +44,16 @@ display("Menu Pricelist", target="heading1")
 # Display menu items
 display(product_names[0], target="prod1")
 display(f"₱{menu_prices['Matcha Latte']:.2f}", target="price1")
+
 display(product_names[1], target="prod2")
-display(f"₱{menu_prices['Garlic Bread']:.2f}", target="price2")
+display(f"₱{menu_prices['Black Coffee']:.2f}", target="price2")
+
 display(product_names[2], target="prod3")
-display(f"₱{menu_prices['Black Coffee]:.2f}", target="price3")
-display("Iced Tea", target="prod4")
-display(f"₱{menu_prices['Iced Tea']:.2f}", target="price4")
+display(f"₱{menu_prices['Carrot Bread']:.2f}", target="price3")
+
+display("Matcha Macadamia", target="prod4")
+display(f"₱{menu_prices['Matcha Macadamia']:.2f}", target="price4")
+
 display("Sparkling Water", target="prod5")
 display(f"₱{menu_prices['Sparkling Water']:.2f}", target="price5")
 
@@ -67,4 +71,5 @@ display(f"Common Allergens: {', '.join(common_allergens)}", target="allergens")
 
 # Display popular item price
 display(f"Popular Item Price: ₱{popular_item_price:.2f}", target="popularItem")
+
 
