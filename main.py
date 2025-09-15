@@ -9,7 +9,7 @@ owner_name = "Ezekiel Atienza Lim"  # string
 year_established = 2021  # integer
 
 # 3. Float data type
-tax_rate = 0.02  # float (8% tax)
+tax_rate = 0.02  # float (2% tax)
 popular_item_price = 150.00  # float (menu item price)
 
 # 4. Boolean data type
@@ -72,3 +72,4 @@ display(f"Common Allergens: {', '.join(common_allergens)}", target="allergens")
 
 # Display popular item price
 display(f"Popular Item Price: ₱{popular_item_price:.2f}", target="popularItem")
+
