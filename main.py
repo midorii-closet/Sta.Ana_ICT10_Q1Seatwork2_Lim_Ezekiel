@@ -24,7 +24,7 @@ business_hours = ("11:00 AM", "10:00 PM")  # tuple
 # 7. Dictionary data type
 menu_prices = {  # dictionary
     "Matcha Latte": 150.00,
-    "Caesar Salad": 150.00,
+    "Black coffee": 125.00,
     "Garlic Bread": 50.00,
     "Iced Tea": 30.00,
     "Sparkling Water": 20.00
@@ -47,7 +47,7 @@ display(f"₱{menu_prices['Matcha Latte']:.2f}", target="price1")
 display(product_names[1], target="prod2")
 display(f"₱{menu_prices['Garlic Bread']:.2f}", target="price2")
 display(product_names[2], target="prod3")
-display(f"₱{menu_prices['Caesar Salad']:.2f}", target="price3")
+display(f"₱{menu_prices['Black Coffee]:.2f}", target="price3")
 display("Iced Tea", target="prod4")
 display(f"₱{menu_prices['Iced Tea']:.2f}", target="price4")
 display("Sparkling Water", target="prod5")
@@ -67,3 +67,4 @@ display(f"Common Allergens: {', '.join(common_allergens)}", target="allergens")
 
 # Display popular item price
 display(f"Popular Item Price: ₱{popular_item_price:.2f}", target="popularItem")
+
